@@ -13,9 +13,6 @@
     "build": "tsc"
   },
   "sideEffects": false,
-  "engines": {
-    "node": ">=20.8.1"
-  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
