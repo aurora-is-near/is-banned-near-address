@@ -5,7 +5,7 @@
   "author": "Alex Mendes",
   "license": "UNLICENSED",
   "main": "dist/index.js",
-  "module": "./dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
     "test": "jest",
