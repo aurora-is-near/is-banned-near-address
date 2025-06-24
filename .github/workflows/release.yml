@@ -37,6 +37,8 @@ jobs:
           always-auth: true
       - name: Install
         run: yarn install --frozen-lockfile --non-interactive
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build
         run: yarn build
       - name: Release
