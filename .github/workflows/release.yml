@@ -41,10 +41,12 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build
         run: yarn build
-      - name: Configure registry for publish
-        run: |
-          yarn config set @aurora-is-near:registry https://registry.npmjs.org/
-          npm  config set @aurora-is-near:registry https://registry.npmjs.org/
+      - name: Setup Node registry-url
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+          registry-url: https://registry.npmjs.com
+          always-auth: true
       - name: Release
         run: npx semantic-release
         env:
