@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aurora-is-near/eslint-config@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@aurora-is-near/eslint-config/-/eslint-config-1.5.2.tgz#70bb9ddb54c6e8f7c4c32e8e7ba0a2117d44694c"
-  integrity sha512-CCpoihYP3dyFaJlT8xGWK9D0c2M+SeTlA7rlK0kGi9ZadwATOCoIWj16ZOCyWvOLPLSBLBKHA80rMi94hkKw4Q==
+"@aurora-is-near/eslint-config@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@aurora-is-near/eslint-config/-/eslint-config-1.5.3.tgz#32d645ba023c7ed030a7c5cf29af283f08019ffa"
+  integrity sha512-tFrMtJPDOO9n+pnkeNjgdfGRJfkNfdy4YWDF3UeiOYwMTEM5B4IJEQNyETsJF8MhysMQVb7H0Y6OyMnHkcwlAg==
   dependencies:
     "@next/eslint-plugin-next" "^14.2.5"
     "@typescript-eslint/eslint-plugin" "^7.14.1"
