@@ -11,7 +11,7 @@ yarn add @aurora-is-near/is-banned-near-address
 ## Usage
 
 ```ts
-import { isBannedNearAddress } = "@aurora-is-near/is-banned-near-address";
+import { isBannedNearAddress } from "@aurora-is-near/is-banned-near-address";
 
 isBannedNearAddress('0x0048501436e6325eff9756d804160dce4aaf3f3f'); // => true
 ```
