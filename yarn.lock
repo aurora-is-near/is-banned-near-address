@@ -28,10 +28,10 @@
     eslint-plugin-storybook "^0.8.0"
     eslint-plugin-testing-library "^6.2.2"
 
-"@aurora-is-near/semantic-release-config@^1.4.3":
-  version "1.4.3"
-  resolved "https://npm.pkg.github.com/download/@aurora-is-near/semantic-release-config/1.4.3/7bfd59c88b1c671ab685df78d672d736d34a4894#7bfd59c88b1c671ab685df78d672d736d34a4894"
-  integrity sha512-a1pk7XWN/lQhdm84hC+a0hbQKqZOI7BXnVbYDMD1UU+5qIu0yPibf+MonIhBQbKlnf3Xx4IJVPO2Cd3K88NTOA==
+"@aurora-is-near/semantic-release-config@^1.5.0":
+  version "1.5.0"
+  resolved "https://npm.pkg.github.com/download/@aurora-is-near/semantic-release-config/1.5.0/cdc1ff5897589ff76b67d6adf5049fe796dd3b59#cdc1ff5897589ff76b67d6adf5049fe796dd3b59"
+  integrity sha512-Y4GAX8saseyWgZvwiH16L8Tr9Fh1CWSVlK3e1lT9Fyy7ATBtFTq+SFo7fsJ9hsraau4uIarEGjriRRBA626TMA==
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.0"
     "@semantic-release/exec" "^6.0.3"
@@ -39,7 +39,8 @@
     "@semantic-release/github" "^11.0.1"
     "@semantic-release/npm" "^12.0.1"
     "@semantic-release/release-notes-generator" "^14.0.1"
-    semantic-release-react-native "^1.12.1"
+    app-root-path "^3.1.0"
+    semantic-release-react-native "^1.12.2"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.22.13":
   version "7.26.2"
@@ -5185,10 +5186,10 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release-react-native@^1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-react-native/-/semantic-release-react-native-1.12.1.tgz#31e9e90a52331653b0ee5b3e39ddf22f4119f8e7"
-  integrity sha512-jCk6UVq6OpSN9rXE7XviXGVKALvTQe/dFmSxMQd9F6oSoX3K0HAjD24dZcLsChGbobupegMXxusARfr76ZpCzg==
+semantic-release-react-native@^1.12.2:
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-react-native/-/semantic-release-react-native-1.12.2.tgz#cf1136d81a9a33440d9978c97f1e7a10a1bd2776"
+  integrity sha512-WOjywQ2NjhcNzLrFyX6LUn91BdLPEK236cxV4663m+/KDL5XBi4brYTbX9wkA2e9pOYbvH4oeYYXO/LKpTvZlg==
   dependencies:
     app-root-path "^3.0.0"
     deepmerge "^4.2.2"
