@@ -18,6 +18,10 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "src",
     "dist"
@@ -38,12 +42,6 @@
     "strip-ansi": "^6.0.1",
     "string-width": "^4.2.0",
     "wrap-ansi": "^7.0.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest",
-    "access": "public",
-    "provenance": false
   },
   "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
