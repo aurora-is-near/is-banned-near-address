@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aurora-is-near/eslint-config@^1.4.1":
-  version "1.4.1"
-  resolved "https://npm.pkg.github.com/download/@aurora-is-near/eslint-config/1.4.1/fa0b90b80dd85aad47a495b621352a433cfaf5b4#fa0b90b80dd85aad47a495b621352a433cfaf5b4"
-  integrity sha512-ZTVaVVPTs4QzrC3wzjanwDKnnXz+9HQBsC/yBZyeKwz21xGvfou2FSd37DloGdnMTpTdQMhI9r+/56VDxnbSUQ==
+"@aurora-is-near/eslint-config@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@aurora-is-near/eslint-config/-/eslint-config-1.5.2.tgz#70bb9ddb54c6e8f7c4c32e8e7ba0a2117d44694c"
+  integrity sha512-CCpoihYP3dyFaJlT8xGWK9D0c2M+SeTlA7rlK0kGi9ZadwATOCoIWj16ZOCyWvOLPLSBLBKHA80rMi94hkKw4Q==
   dependencies:
     "@next/eslint-plugin-next" "^14.2.5"
     "@typescript-eslint/eslint-plugin" "^7.14.1"
@@ -19,6 +19,7 @@
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.1"
     eslint-plugin-jest "^28.6.0"
+    eslint-plugin-jest-dom "^5.5.0"
     eslint-plugin-jest-formatting "^3.1.0"
     eslint-plugin-jsx-a11y "^6.9.0"
     eslint-plugin-jsx-falsy "^1.0.0"
@@ -28,10 +29,10 @@
     eslint-plugin-storybook "^0.8.0"
     eslint-plugin-testing-library "^6.2.2"
 
-"@aurora-is-near/semantic-release-config@^1.5.0":
-  version "1.5.0"
-  resolved "https://npm.pkg.github.com/download/@aurora-is-near/semantic-release-config/1.5.0/cdc1ff5897589ff76b67d6adf5049fe796dd3b59#cdc1ff5897589ff76b67d6adf5049fe796dd3b59"
-  integrity sha512-Y4GAX8saseyWgZvwiH16L8Tr9Fh1CWSVlK3e1lT9Fyy7ATBtFTq+SFo7fsJ9hsraau4uIarEGjriRRBA626TMA==
+"@aurora-is-near/semantic-release-config@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@aurora-is-near/semantic-release-config/-/semantic-release-config-1.5.2.tgz#6f3da26520082e3895264b6da51704e56f873081"
+  integrity sha512-u8Lqtiz0NYaG+fWy7/BwGIwA2Z3ljA5wOi8LxNMZWnNuTdIyS7Wa2tx46/2VQQ+pSWkGg3EExIrKwTv+QLJprA==
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.0"
     "@semantic-release/exec" "^6.0.3"
@@ -55,6 +56,11 @@
   version "7.25.9"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.25.9.tgz#24b64e2c3ec7cd3b3c547729b8d16871f22cbdc7"
   integrity sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==
+
+"@babel/runtime@^7.16.3":
+  version "7.27.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.6.tgz#ec4070a04d76bae8ddbb10770ba55714a417b7c6"
+  integrity sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==
 
 "@colors/colors@1.5.0":
   version "1.5.0"
@@ -2251,6 +2257,14 @@ eslint-plugin-import@^2.28.1, eslint-plugin-import@^2.29.1:
     semver "^6.3.1"
     string.prototype.trimend "^1.0.8"
     tsconfig-paths "^3.15.0"
+
+eslint-plugin-jest-dom@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest-dom/-/eslint-plugin-jest-dom-5.5.0.tgz#3ccdfe197eddb4108f390db583057a5dacccd4a0"
+  integrity sha512-CRlXfchTr7EgC3tDI7MGHY6QjdJU5Vv2RPaeeGtkXUHnKZf04kgzMPIJUXt4qKCvYWVVIEo9ut9Oq1vgXAykEA==
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+    requireindex "^1.2.0"
 
 eslint-plugin-jest-formatting@^3.1.0:
   version "3.1.0"

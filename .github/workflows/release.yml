@@ -33,18 +33,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: package.json
-          registry-url: https://npm.pkg.github.com
-          always-auth: true
       - name: Install
         run: yarn install --frozen-lockfile --non-interactive
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build
         run: yarn build
-      - name: Configure registry for publish
-        run: |
-          yarn config set @aurora-is-near:registry https://registry.npmjs.org/
-          npm  config set @aurora-is-near:registry https://registry.npmjs.org/
       - name: Release
         run: npx semantic-release
         env:
